@@ -1,0 +1,162 @@
+
+
+.container {
+	max-width: 1100px;
+	height: auto;
+	margin: 50px auto;
+}
+
+.hero {
+	margin: 50px auto;
+	position: relative;
+}
+
+
+h1.name {
+	font-size: 45px;
+	font-weight: 300;
+	display: inline-block;
+}
+
+h1.about {
+	font-size: 70px;
+	font-weight: 300;
+	text-align: center;
+}
+
+h1.movies{
+	font-size: 45px;
+	font-weight: 300;
+
+}
+
+.about{
+	vertical-align: top;
+	background-color: #D9E7F8;
+	color: #4A90E2;
+	font-weight: 600;
+	margin-top: 5px;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 15px 25px;
+}
+
+.email {
+	display: block;
+	font-size: 24px;
+	font-weight: 300;
+	color: #81899C;
+	margin-top: 10px;
+}
+
+.lead {
+	font-size: 44px;
+	font-weight: 300;
+	margin-top: 60px;
+	line-height: 55px;
+}
+
+
+.cards {
+	max-width: 1120px;
+	display: block;
+	margin-top: 20px;
+}
+
+.card {
+	width: 47.9%;
+	height: 200px;
+	background-image: url(bahubali_20150727.jpg) ;
+	background-repeat: no-repeat;
+	background-size: auto;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.card1{
+	width: 47.9%;
+	height: 200px;
+	background-image: url(super\ deluxe.jpg) ;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.card2{
+	width: 47.9%;
+	height: 200px;
+	background-image: url(chatrapathi.jpg) ;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+.card3{
+	width: 47.9%;
+	height: 200px;
+	background-image: url(avengers.jpg) ;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.card1-active , .card1:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+.card2-active , .card2:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
+.card3-active , .card3:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
+.card-active , .card:hover{
+	transform: scale(1.02);
+	transition: 0.5s;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+.skill-meta {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 300px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.skill-meta h3 {
+	font-size: 20px;
+	font-weight: 800;
+	color: rgb(216, 202, 11);
+	margin-bottom: 5px;
+}
+
+.skill-meta span{
+	color: #81899C;
+	line-height: 20px;
+	font-size: 16px;
+
+}
