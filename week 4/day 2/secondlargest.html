@@ -1,0 +1,28 @@
+
+  <html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            
+
+
+            var sumofelements=[1,2,3,556,5,6,7,256];
+            var largest = 0;
+            var secondlargest = 0;
+            for ( let i = 0; i < sumofelements.length; i++) {
+                if(largest<sumofelements[i]){
+                    secondlargest = largest;
+                    largest=sumofelements[i];
+                }
+                if(secondlargest < sumofelements[i]){
+                    secondlargest = sumofelements[i]
+                }
+            }
+            console.log(secondlargest);
+            </script>
+
+
+    </body>
+</html>
