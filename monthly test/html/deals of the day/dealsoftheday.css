@@ -1,0 +1,16 @@
+.align{
+    margin-top: 10%;
+}
+
+.align1{
+    margin-bottom: 10px;
+}
+.images {
+        position: relative;
+        float: left;
+        width:  100px;
+        height: 100px;
+        background-position: 50% 50%;
+        background-repeat:   no-repeat;
+        background-size:     cover;
+    }
